@@ -1,0 +1,13 @@
+[package]
+name = "capstoggle"
+version = "0.1.0"
+edition = "2021"
+description = "Toggle the CapsLock key between Ctrl, Esc and normal on GNOME"
+license = "MIT"
+repository = "https://github.com/eaby7210/capstoggle"
+readme = "README.md"
+keywords = ["capslock", "keyboard", "gnome", "ctrl", "esc"]
+categories = ["command-line-utilities"]
+
+[profile.release]
+strip = true
